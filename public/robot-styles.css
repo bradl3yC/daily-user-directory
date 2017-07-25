@@ -1,0 +1,14 @@
+img {
+  border: 2px solid #dbdbdb;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  margin-top: 20px;
+}

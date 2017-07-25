@@ -17,3 +17,8 @@ app.set('view engine', 'mustache')
 app.get('/', (request, response) => {
   response.render('index', data)
 })
+app.use(express.static('public'))
+app.get('/users/:id', (request, response) => {
+  const userData = data.users[request.params.id - 1]
+  response.render('user', userData)
+})
