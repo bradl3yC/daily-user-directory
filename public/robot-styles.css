@@ -12,3 +12,18 @@ p {
 table {
   margin-top: 20px;
 }
+
+table tr td {
+  display: flex;
+  flex-direction: column;
+}
+
+table tr th {
+  vertical-align: top;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.available {
+  color: #d63131;
+}
